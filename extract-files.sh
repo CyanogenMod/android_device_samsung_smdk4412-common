@@ -93,7 +93,7 @@ done
 
 LOCAL_PATH := \$(call my-dir)
 
-ifneq (\$(filter i9300 i9305 n7100 n8000 n8013 t0lte t0lteatt t0ltetmo i605 l900 r950,\$(TARGET_DEVICE)),)
+ifneq (\$(filter i9300 i9305 n7100 n8000 n8013 n8020 t0lte t0lteatt t0ltetmo i605 l900 r950,\$(TARGET_DEVICE)),)
 
 include \$(CLEAR_VARS)
 LOCAL_MODULE := libTVOut
