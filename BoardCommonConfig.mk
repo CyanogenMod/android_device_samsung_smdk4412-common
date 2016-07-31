@@ -69,7 +69,7 @@ BOARD_FLASH_BLOCK_SIZE := 4096
 TARGET_USERIMAGES_USE_EXT4 := true
 
 # Hardware tunables
-BOARD_HARDWARE_CLASS := hardware/samsung/cmhw
+BOARD_HARDWARE_CLASS := $(LOCAL_PATH)/cmhw
 
 # Graphics
 BOARD_EGL_CFG := device/samsung/smdk4412-common/configs/egl.cfg
